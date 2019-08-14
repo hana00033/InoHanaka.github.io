@@ -11,6 +11,17 @@ $(window).on('load',function(){
     // $('.main-contents').css('display', '');
     $('.main-contents').fadeIn(1000);
     $('header').fadeIn(100);
+})
+
+$(function(){
+    setTimeout('stopload()',10000);
+  });
+   
+  function stopload(){
+    $('.main-contents').css('display','block');
+    $('#loader-bg').delay(900).fadeOut(800);
+    $('#loader').delay(600).fadeOut(300);
+  }
 
 
 $(function(){
@@ -116,4 +127,4 @@ $(function(){
     });
  });
 
-})
+
