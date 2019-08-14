@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HANAKA's Portfolio Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="loader-bg">
+      <div id="loading">
+        <img src="image/25.gif">
+      </div>
+    </div>
+<div class="main-contents">    
+    <header>
+        <div class="container">
+            <button class="btn-1 btn-2"><span class="span-1 span-3"><a href="#home" id="home-a">HOME</a></span></button>
+            <button class="btn-1"><span class="span-1"><a href="#about" id="about-a">ABOUT</a></span></button>
+            <button class="btn-1"><span class="span-1"><a href="#skills" id="skills-a">SKILLS</a></span></button>
+            <button class="btn-1"><span class="span-1"><a href="#works" id="works-a">WORKS</a></span></button>
+            <button class="btn-1"><span class="span-1"><a href="#contact" id="contact-a">CONTACT</a></span></button>
+        </div>
+        <section class="home" id="home">
+                <canvas id="scene"></canvas>
+                <div class="canvas-inner">
+                        <h1>Portfolio</h1>
+                        <h2 id="copy">HANAKA INO</h2>
+                </div>
+                
+            
+        </section>
+    </header>
+    <div class="main-wrapper">
+    <section class="section about" id="about">
+        <h2><span class="span-2">About Me</span></h2>
+        <div id="profilepic">
+            <img src="image/about.png">
+        </div>
+        <div id="profiletext">
+            <h3>稲生華佳</h3>
+            <h4>INO HANAKA</h4>
+            <p>1998年生まれ、愛知県出身。<br>
+            名古屋市立大学に通う大学3年生。Web制作やアプリ制作に興味があります。大学ではUI・UXデザインを学んでいます。<br>
+            趣味は美味しいものを食べることと女性アイドルグループの歌を聞くことです。</p>
+        </div>
+    </section>
+<section class="section skills" id="skills">
+        <h2><span class="span-2">My Skills</span></h2>
+        <div class="skill-bar-wrapper">
+        <!-- <div class="list-icon">
+            <ul class="icons">
+                <li class="icon1"><img src="image/html.png"></li>
+                <li class="icon2"><img src="image/css.png"></li>
+                <li class="icon2"><img src="image/js.png"></li>
+                <li class="icon2"><img src="image/java.png"></li>
+                <li class="icon2"><img src="image/react.png"></li>
+            </ul>
+        </div> -->
+    <div class="skills1">
+            <ul class="lines">
+              <li class="line l--0">
+                <!-- <span class="line__label title">
+                  Skill level:
+                </span> -->
+              </li>
+              <li class="line l--25">
+                <!-- <span class="line__label">
+                  The basics
+                </span> -->
+              </li>
+              <li class="line l--50">
+                <!-- <span class="line__label">
+                  Advanced
+                </span> -->
+              </li>
+              <li class="line l--75">
+                <!-- <span class="line__label">
+                  Seasoned
+                </span> -->
+              </li>
+              <li class="line l--100">
+                <!-- <span class="line__label">
+                  Expert
+                </span> -->
+              </li>
+            </ul>
+            
+            <div class="charts">
+              <div class="chart chart--dev">
+                <!-- <span class="chart__title">Development</span> -->
+                <ul class="chart--horiz">
+                  <li class="chart__bar" style="width: 70%;">
+                    <!-- <img src="image/ai-logo.png"> -->
+                    <span class="chart__label">
+                      HTML
+                    </span>
+                    <span class="chart__number">70%
+                    </span>
+                  </li>
+                  <li class="chart__bar" style="width: 70%;">
+                    <span class="chart__label">
+                      CSS
+                    </span>
+                    <span class="chart__number">70%
+                    </span>
+                  </li>
+                  <li class="chart__bar" style="width: 50%;">
+                    <span class="chart__label">
+                      JavaScript
+                    </span>
+                    <span class="chart__number">50%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 50%;">
+                    <span class="chart__label">
+                      Java
+                    </span>
+                    <span class="chart__number">50%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 40%;">
+                    <span class="chart__label">
+                      React.js
+                    </span>
+                    <span class="chart__number">40%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 60%;">
+                    <span class="chart__label">
+                      jQuery
+                    </span>
+                    <span class="chart__number">60%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 50%;">
+                    <span class="chart__label">
+                      Node.js
+                    </span>
+                    <span class="chart__number">50%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 60%;">
+                    <span class="chart__label">
+                      Sass
+                    </span>
+                    <span class="chart__number">60%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 60%;">
+                    <span class="chart__label">
+                      C#
+                    </span>
+                    <span class="chart__number">60%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 60%;">
+                    <span class="chart__label">
+                      Ruby on Rails
+                    </span>
+                    <span class="chart__number">60%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 70%;">
+                    <span class="chart__label">
+                      Illustrator
+                    </span>
+                    <span class="chart__number">70%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 50%;">
+                    <span class="chart__label">
+                        Photoshop
+                    </span>
+                    <span class="chart__number">50%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 80%;">
+                    <span class="chart__label">
+                        Xd
+                    </span>
+                    <span class="chart__number">80%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 70%;">
+                    <span class="chart__label">
+                        Unity
+                    </span>
+                    <span class="chart__number">70%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 60%;">
+                    <span class="chart__label">
+                        Maya
+                    </span>
+                    <span class="chart__number">60%
+                      </span>
+                  </li>
+                  <li class="chart__bar" style="width: 60%;">
+                    <span class="chart__label">
+                        Github
+                    </span>
+                    <span class="chart__number">60%
+                      </span>
+                  </li>
+                   
+                </ul>
+              </div>
+              
+              <!-- <div class="chart chart--prod"> -->
+                <!-- <span class="chart__title">Productivity</span> -->
+                <!-- <ul class="chart--horiz">
+                <li class="chart__bar" style="width: 75%;">
+                  <span class="chart__label">
+                    Git + Github, Bitbucket & Sourcetree
+                  </span>
+                </li>
+                <li class="chart__bar" style="width: 80%;">
+                  <span class="chart__label">
+                    Microsoft Office
+                  </span>
+                </li>
+              </ul>
+              </div>
+              
+              <div class="chart chart--design"> -->
+                <!-- <span class="chart__title">Design</span> -->
+                <!-- <ul class="chart--horiz">
+                <li class="chart__bar" style="width: 45%;">
+                  <span class="chart__label">
+                    Photoshop
+                  </span>
+                </li>
+                <li class="chart__bar" style="width: 35%;">
+                  <span class="chart__label">
+                    Illustrator
+                  </span>
+                </li>
+                <li class="chart__bar" style="width: 60%;">
+                  <span class="chart__label">
+                    User Experience
+                  </span>
+                </li>
+              </ul>
+              </div> -->
+            </div>
+          </div>
+        </div>
+    </section>
+          
+
+    
+    <section class="section works" id="works">
+            <h2><span class="span-2">Works</span></h2>
+
+            <div id="demoslide01" class="main_visual bg_aaa">
+            <div class="table">
+              <div class="work-pic">
+                <a data-target="modal1" class="modal_open">
+                <div class="pic">
+                <img src="image/work1@.png">
+                </div>
+                <div class="work-text">
+                  <p class="work-name">namakemono</p>
+                  <p class="work-intro">怠けがちな大学生のための時間割アプリ</p>
+                </div>
+                </a>
+              </div>
+              <div class="work-pic">
+                  <a data-target="modal2" class="modal_open">
+                  <div class="pic">
+                  <img src="image/work2.png">
+                  </div>
+                  <div class="work-text">
+                      <p class="work-name">Reassure</p>
+                      <p class="work-intro">気分が楽になるように手助けするアプリ</p>
+                  </div>
+                  </a>
+              </div>
+              <div class="work-pic">
+                  <a data-target="modal3" class="modal_open">
+                  <div class="pic">
+                  <img src="image/work3.png">
+                  </div>
+                  <div class="work-text">
+                      <p class="work-name">指差しチェッカー</p>
+                      <p class="work-intro">うっかり忘れを防止するIoTアプリ</p>
+                  </div>
+                  </a>
+              </div>
+            </div>
+            <div class="work-pic2">
+                <a data-target="modal4" class="modal_open">
+                <div class="pic">
+                <img src="image/work4-2.png">
+                </div>
+                <div class="work-text">
+                    <p class="work-name">ポートフォリオサイト</p>
+                    <p class="work-intro">作品を紹介するポートフォリオサイト</p>
+                </div>
+                </a>
+            </div>
+            <!-- <div class="table">
+              <div class="work-pic">
+                  <div class="pic">
+                  <img src="image/work1@.png">
+                  </div>
+                  <p>namakemono<span>怠けがちな大学生のための時間割アプリ</span></p>
+              </div>
+            </div> -->
+            
+              <!-- <div class="work-pic">
+                  <img src="image/work1@.png">
+              </div> -->
+                    <!-- <p><a data-target="modal1" class="modal_open">work1</a></p>
+                    <p><a data-target="modal2" class="modal_open">work2</a></p> -->
+            </div>  
+                   
+                  <!-- モーダル1 -->
+                  <div id="modal1" class="modal_box">
+                      <h3>namakemono</h3>
+                      <p>スマートフォン/2018.8</p>
+                      <img src="image/work1@.png">
+                      <div class="summary">
+                        <dl>
+                          <dt>制作期間</dt>
+                          <dd>３週間</dd>
+                          <dt>担当範囲</dt>
+                          <dd>すべて</dd>
+                          <dt>使用ソフト・言語</dt>
+                          <dd>Illustrator/Xd/Ruby on rails/HTML/CSS/JavaScript</dd>
+                          <dt>URL</dt>
+                          <dd>https://namakemono3.herokuapp.com/</dd>
+                        </dl>
+                      </div>
+                      <div class="context">
+                        <h4>制作背景</h4>
+                        <p>私が通っている名古屋市立大学の学生による作品品展示会、卓展。2年生の時にアプリを作るプロジェクトチームに参加し、
+                          そこでこのアプリを作成しました。
+                        </p>
+                      </div>
+                     <section class="flow">
+                       <div class="clearfix">
+                         <div class="right">
+                       <p>Rubyの使用経験が全くなかったのですが、先輩に教えていただきながら、約３週間ほどでデプロイまで達成することができました。また、gitを使ったバージョン管理もこの作品づくりで初めて経験し、使いこなすことができるようになりました。</p>
+                       <p>作品の案出しとしてマンダラート法を用いました。その後ペルソナを立ててどのようなユーザーを対象に作るかを絞り込みました。また、ペーパープロトタイプを作成しユーザビリティーテストを行うことでユーザーにとって使いやすいUIになっているかを調査し、
+                          デザイン案を固めました。</p>
+                        <p>その後illastratorやXdを用いてアプリのデザインを詳細に行いました。フロントコーディングでは、グラフを表示させるためにJavaScriptを用い、ただ表示させるだけではなくアニメーション付きで表示させられるようにしました。</p>
+                       </div>
+                       <div class="left iphone"><img src="image/work1-1.png"></div>
+                      </div>
+                       <p>バックエンドのコーディングに時間がかかってしまい、締め切りに間に合わせるためにフロントのコーディングが少しおろそかになってしまった部分がありました。
+                         その結果、最初にデザインしたものと変わってしまった部分もかなりあったので、そこが少し心残りなのでまた挑戦したいです。
+                       </p>
+                     </section>
+                      <div class="link_area">
+                          <li class="button modal_link"><a data-target="modal2" class="modal_switch">→</a></li>
+                      </div>
+                     <div class="close">
+                      <p><a class="modal_close">✖️</a></p>
+                    </div>
+                  </div>
+                   
+                  <!-- モーダル2 -->
+                  <div id="modal2" class="modal_box">
+                      <h3>Reassure</h3>
+                      <p>スマートフォン/2018.11</p>
+                      <img src="image/work2.png">
+                      <div class="summary">
+                        <dl>
+                          <dt>制作期間</dt>
+                          <dd>３日間</dd>
+                          <dt>担当範囲</dt>
+                          <dd>アプリデザイン、ユーザビリティテスト</dd>
+                          <dt>使用ソフト・言語</dt>
+                          <dd>Illustrator/Xd</dd>
+                        </dl>
+                      </div>
+                      <div class="context">
+                        <h4>制作背景</h4>
+                        <p>2年生の11月に先輩に紹介していただき、OthloHack2018に参加し、
+                          「特別な日を彩る」というテーマに沿って５人チームでアプリ開発を行いました。
+                        </p>
+                      </div>
+                     <section class="flow">
+                       <div class="clearfix">
+                         <div class="left iphone">
+                          <img src="image/work2-2.png" id="work2-img">
+                        </div>
+                         <div class="right">
+                       <p>ユーザビリティテストの段階でハッカソンに来ていただいていた様々な企業のデザイナーの方にデザインを見ていただき、実践的なデザインの方法やユーザーの使いやすさだけでなく、ターゲットにしているユーザーに合わせたデザインが必要である、ということを教わることができました。
+                         このアプリは気持ちが沈んでいる人に使ってもらうアプリなので、柔らかい色合いや、角のないデザイン、優しい印象を与えるキャラクターを使用する事にしました。</p>
+                       <p>私のチームはハッカソンで入賞することはできませんでしたが、デザイナーの方だけでなくエンジニアの方からもこのチームのデザインがよかったと褒めていただくことができました。
+                       </p>
+                      </div>
+                      </div>
+                      <div class="clearfix">
+                        <div class="left">
+                       <p>マテリアルデザインを意識してデザインをし、実際に触れることができる要素がユーザーに明確に伝わるようにしました。また、ユーザーに入力してもらう画面ではあと何ページで入力が終わるのかを明らかにし、ユーザーにストレスなく使ってもらえるような努力をしました。</p>
+                        <p>このアプリは日々あったことを吐き出してもらうことで気分を楽にしてもおう、というアプリだったので、書き込むごとに背景の色が明るくなっていくようにしたり、可愛いキャラクターを使うことで悩みなどを書きやすくなるようにしました。</p>
+                       </div>
+                       <div class="right">
+                       <img src="image/work2-1.png" >
+                      </div>
+                      </div>
+                       <p>チームでの開発は初めてだったので意見が対立することもあり、なかなか話し合いが進みませんでした。
+                         その結果作業にかける時間も少なくなってしまい完全に満足の行く出来にはなりませんでした。
+                         <br>その反省を活かすためにもっとチーム開発型のハッカソンなどに参加してみたい！と思うようになりました。
+                       </p>
+                     </section>
+                      <div class="link_area">
+                          <li class="button modal_link"><a data-target="modal1" class="modal_switch">←</a></li>
+                          <li class="button modal_link"><a data-target="modal3" class="modal_switch">→</a></li>
+                      </div>
+                     
+                      <div class="close">
+                          <p><a class="modal_close">✖️</a></p>
+                        </div>
+                  </div>
+
+                  <!-- モーダル3 -->
+                  <div id="modal3" class="modal_box">
+                      <h3>指差しチェッカー</h3>
+                      <p>スマートフォン/2019.5</p>
+                      <img src="image/work3.png">
+                      <div class="summary">
+                        <dl>
+                          <dt>制作期間</dt>
+                          <dd>１ヶ月</dd>
+                          <dt>担当範囲</dt>
+                          <dd>フロントエンド</dd>
+                          <dt>使用ソフト・言語</dt>
+                          <dd>HTML,CSS,jQuery</dd>
+                          <dt>URL</dt>
+                          <dd>https://yubisashi-checker.herokuapp.com/lists</dd>
+                        </dl>
+                      </div>
+                      <div class="context">
+                        <h4>制作背景</h4>
+                        <p>学校の実習の授業で、IoT開発を行なっている企業の方が外部講師として来られて、IoTアプリを作成しました。
+                          ソニーから出ているMeshブロックを用いてアプリ開発を行いました。
+                        </p>
+                      </div>
+                     <section class="flow">
+                       <div class="clearfix">
+                         <div class="left iphone">
+                          <img src="image/work3-1.png">
+                        </div>
+                         <div class="right">
+                       <p>初めてフロントエンドとバックエンドで別れて作業を行ったので、どういうコーディングをしたらバックエンドのコーディングを行う人が見やすいかを考えながら行いました。
+                         またgitでソースコードの管理を行いながら作成しました。
+                       </p>
+                       <p>カレンダーをクリックするとその日の外出時間がカレンダーの下に表示されるのですが、
+                         フッターに表示された時刻が隠れてしまいユーザーがわざわざスクロールして見なければいけなかったので、スムーススクロールを実装することでユーザーにとって見やすいページを作成するように心がけました。
+                       </p>
+                       <p>また最終プレゼンでは企業方もきていただいていたので、現在日本が抱えている問題を話した上でビジネスモデルも説明することにより、このアプリの有用性を納得していただくことができました。
+                        </p>
+                      </div>
+                      </div>
+                       <p>IoTアプリを作ったのは初めてだったのですが、とても楽しかったのでまた機会があればやりたいです。
+                         <br>その際は既存のものを使用するのではなく、自分たちでセンサーを組んでやってみたいです。
+                       </p>
+                     </section>
+                      <div class="link_area">
+                          <li class="button modal_link"><a data-target="modal2" class="modal_switch">←</a></li>
+                          <li class="button modal_link"><a data-target="modal4" class="modal_switch">→</a></li>
+                      </div>
+                     
+                      <div class="close">
+                          <p><a class="modal_close">✖️</a></p>
+                      </div>
+                  </div>
+
+                  <!-- モーダル4 -->
+                  <div id="modal4" class="modal_box">
+                      <h3>ポートフォリオサイト</h3>
+                      <p>PC/2019.7</p>
+                      <img src="image/work4-2.png" class="pc">
+                      <div class="summary">
+                        <dl>
+                          <dt>制作期間</dt>
+                          <dd>２週間</dd>
+                          <dt>担当範囲</dt>
+                          <dd>すべて</dd>
+                          <dt>使用ソフト・言語</dt>
+                          <dd>HTML,Sass,JavaScript</dd>
+                        </dl>
+                      </div>
+                      <div class="context">
+                        <h4>制作背景</h4>
+                        <p>私が通っている名古屋市立大学の学生による作品品展示会、卓展。3年生ではWebサイトを制作するプロジェクトチームに所属しました。
+                          そこで、自身の作品を紹介するポートフォリオサイトを作りました。
+                        </p>
+                      </div>
+                     <section class="flow">
+                       <div class="clearfix">
+                         <div class="left">
+                          <img src="image/work4-1.png" class="modal-pc" >
+                        </div>
+                         <div class="right">
+                       <p>大好きなラベンダー色をメインにシンプルで見やすいデザインを心がけて作りました。
+                          自分のやりたいことをやったので、結果的に少しまとまりのないサイトになってしまったかなあと思っています。
+                       </p>
+                       <p>Three.jsに挑戦してみたい！と思ったものの締め切りに間に合わずに断念してしまったので、
+                         この無念を晴らすべく、改訂版のポートフォリオサイトを作る事をすでに考えています...
+                       </p>
+                      </div>
+                      </div>
+                     </section>
+                      <div class="link_area">
+                          <li class="button modal_link"><a data-target="modal3" class="modal_switch">←</a></li>
+                      </div>
+                     
+                      <div class="close">
+                          <p><a class="modal_close">✖️</a></p>
+                      </div>
+                  </div>
+                         
+
+    </section>
+    
+    <section class="section contact" id="contact">
+        <h2><span class="span-2">Contact Me</span></h2>
+        <p> お気軽にお問い合わせください</p>
+        <button class="button">
+            <a href="mailto:ume_ideal@yahoo.co.jp">
+                <!-- <img src="image/contact-icon.png"> -->
+                <img src="image/mail-icon@.png">
+                <p>メールを送信</p>
+            </a>
+        </button>
+        <p id="mail">mail:ume_ideal@yahoo.co.jp</p>
+    </section>
+</div>
+    <footer>
+        <p>©️2019 HANAKA INO</p>
+    </footer>
+<!-- </section> -->
+</div>  
+<script type="text/javascript" src="js/jQuery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<script type="text/javascript" src="js/sample.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/work.js"></script>
+</body>

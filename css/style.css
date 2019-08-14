@@ -1,0 +1,184 @@
+header{
+    display:none;
+    width:100vw;
+    height: 100vh;
+    background-color:rgba(158,165, 223, 0.7);
+}
+
+
+.btn-1{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body{
+    height:100%;
+    /* background-color:rgba(158,165, 223, 0.7); */
+    margin:0;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    color : #000000;
+}
+
+html{
+    height:100%;
+}
+
+h2{
+    font-family : Pacifico;
+    text-align:center;
+    font-weight: 500;
+    font-size:2.5em;
+    margin:0;
+    padding-bottom: 10%;
+}
+
+.home h2{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.home h1{
+    font-family : Pacifico;
+    font-size : 8em;
+    color : white;
+    text-align:center;
+    margin:0;
+    font-weight: 400;
+    padding-top:30vh;
+}
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=PT+Sans); */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button{
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 2% 2%;
+    /* background: rgba(158,165, 223, 0.7); */
+  }
+  .span-1{
+    display: block;
+    padding: 2% 6%;
+  }
+   .span-3{
+    display: block;
+    padding: 2% 6%;
+  }
+
+
+  /*----topbottom----*/
+  .btn-1::before, .btn-1::after,.btn-2::before, .btn-2::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .span-1::before, .span-1::after,.span-3::before, .span-3::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+
+  
+  /*----rightleft　これ！！！！----*/
+  button:hover::before, button:hover::after{
+    width: 100%;
+  }
+  button:hover span::before, button:hover span::after{
+    height: 100%;
+  }
+  .btn-2::before, .btn-2::after{
+    width: 100%;
+  }
+  .span-3::before, .span-3::after{
+    height: 100%;
+  }
+  /*----- button 1 -----*/
+  .btn-1::before, .btn-1::after ,.btn-2::before, .btn-2::after{
+    transition-delay: 0s;
+  }
+  .btn-1 span::before, .btn-1 span::after,.btn-2::before, .btn-2::after{
+    transition-delay: 0s;
+  }
+  .btn-1::before{
+    right: 0;
+    top: 0;
+  }
+  .btn-1::after{
+    left: 0;
+    bottom: 0;
+  }
+  .btn-1 span::before{
+    left: 0;
+    top: 0;
+  }
+  .btn-1 span::after{
+    right: 0;
+    bottom: 0;
+  }
+  .btn-1:hover::before, .btn-1:hover::after{
+    transition-delay: 0s;
+  }
+  .btn-1:hover span::before, .btn-1:hover span::after{
+    transition-delay: 0s;
+  }
+
+.section{
+    padding:5% 7% 0 7%;
+    background: #f2f2f2;
+    overflow:hidden;
+}
+
+.span-2{
+    padding: 0 2%;
+    border-bottom: solid 0.1em #b99670;
+}
+
+#profilepic{
+    width:20%;
+    float:left;
+    text-align: center;
+}
+
+#profiletext{
+    width:50%;
+    float:left;
+    padding-left:5%;
+}
+
+h3{
+    font-size: 2em;
+    letter-spacing : 0.3em;
+    margin:auto;
+}
+
+h4{
+    margin:auto;
+    font-size: 1em;
+    font-weight:100;
+    letter-spacing : 0.4em;
+}
+
+#profiletext p{
+    letter-spacing : 0.3px;
+    width:8
+    0%;
+}
+
+
+
