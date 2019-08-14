@@ -5,7 +5,8 @@ $(function() {
     // $('header').css('display','none');
 });
 
-$(window).on('load',function(){ 
+window.addEventListener('load', function (){
+    console.log("loading"); 
     $('#loader-bg').delay(900).fadeOut(800);
     $('#loader').delay(600).fadeOut(300);
     // $('.main-contents').css('display', '');
@@ -14,7 +15,7 @@ $(window).on('load',function(){
 })
 
 $(function(){
-    setTimeout('stopload()',10000);
+    setTimeout('stopload()',5000);
   });
    
   function stopload(){
@@ -25,7 +26,6 @@ $(function(){
 
 
 $(function(){
-    console.log("loading");
 	var glovalNav = $('.container');　//　グローバルナビゲーションのセレクタ
 	var navHeight = glovalNav.outerHeight(true); //　ナビゲーションのheight(marginやpadding,box-shadowも含む)
     var navOffset = glovalNav.offset().top; //　ブラウザの一番上からナビゲーションまでの位置

@@ -4,7 +4,6 @@ setTimeout(function(){
 
 
 setTimeout(function(){
- console.log("canvas");
 
 var canvas = document.querySelector("#scene"),
 ctx = canvas.getContext("2d"),
