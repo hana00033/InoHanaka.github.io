@@ -24,7 +24,7 @@ html{
 }
 
 h2{
-    font-family : Pacifico;
+    font-family : Pacifico　cursive;
     text-align:center;
     font-weight: 500;
     font-size:2.5em;
@@ -149,11 +149,7 @@ button{
     border-bottom: solid 0.1em #b99670;
 }
 
-#profilepic{
-    width:20%;
-    float:left;
-    text-align: center;
-}
+
 
 #profiletext{
     width:50%;

@@ -33,7 +33,7 @@ function CanvasText(){
     
 }
 
-setInterval(CanvasText,15000);
+setInterval(CanvasText,20000);
 
 
 var ww = canvas.width = window.innerWidth;
