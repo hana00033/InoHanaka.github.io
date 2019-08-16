@@ -33,7 +33,7 @@ $(function(){
 
    
       // .modal_bgか.modal_closeをクリックしたらモーダルと背景をフェードアウトさせる
-      $('.modal_bg, .modal_close').off().click(function(){
+      $('.modal_bg, .modal_close, .modal_close2').off().click(function(){
         $(".modal_box").fadeOut();
         $(".modal_box").css({
           "transform": "scale(0)"
