@@ -371,6 +371,11 @@ footer p {
   margin: 0;
 }
 
+.modal_box .summary a {
+  text-decoration: none;
+  color: #000;
+}
+
 .modal_box .context {
   float: left;
   text-align: left;
