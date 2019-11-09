@@ -402,7 +402,7 @@ footer{
 
   .flow{
     text-align: left;
-    p{
+    p:not(.not){
       margin-bottom: 20%;
     }
     img{
@@ -413,6 +413,10 @@ footer{
     }
     #work2-img{
       width:80%;
+    }
+
+    #work5-img{
+      width:110%;
     }
 
     .right{
@@ -589,7 +593,8 @@ footer{
   }
   .pic{
     background:#b3b3b3;
-    img{
+    width:100%;
+    img:not(.work-pic-pc) {
       width:30%;
       vertical-align: middle;
       margin:8%;
@@ -601,6 +606,7 @@ footer{
       
     }
   }
+
   .work-text{
     text-align: left;
     border-left: 6px solid #000;
@@ -616,12 +622,13 @@ footer{
       margin-left:1em;
     }
   }
-  .work-pic2{
-    width:31%;
-    text-align:center;
-    margin:20px;
-    img{
-      width:80%;
+
+  .work-pic-pc{
+    width:85%;
+    padding:10%;
+    &:hover{
+      transform: scale(1.1);
+      transition-duration: 0.3s;
     }
   }
 }

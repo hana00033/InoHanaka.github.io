@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- <lang="ja"> -->
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <title>HANAKA's Portfolio Site</title>
@@ -287,15 +287,16 @@
                   </div>
                   <div class="work-text">
                       <p class="work-name">指差しチェッカー</p>
-                      <p class="work-intro">うっかり忘れを防止するIoTアプリ</p>
+                      <p class="work-intro">うっかり忘れを防止するIoT</p>
                   </div>
                   </a>
               </div>
             </div>
-            <div class="work-pic2">
+            <div class="table">
+            <div class="work-pic">
                 <a data-target="modal4" class="modal_open">
                 <div class="pic">
-                <img src="image/work4-2.png">
+                <img class="work-pic-pc" src="image/work4-2.png">
                 </div>
                 <div class="work-text">
                     <p class="work-name">ポートフォリオサイト</p>
@@ -303,6 +304,20 @@
                 </div>
                 </a>
             </div>
+            <div class="work-pic">
+              <a data-target="modal5" class="modal_open">
+              <div class="pic">
+              <img src="image/work5.png">
+              </div>
+              <div class="work-text">
+                  <p class="work-name">miniMom</p>
+                  <p class="work-intro">片付けの習慣づけを手伝うIoT</p>
+              </div>
+              </a>
+              
+            </div>
+            <div class="empty work-pic"></div>
+            
             <!-- <div class="table">
               <div class="work-pic">
                   <div class="pic">
@@ -507,8 +522,8 @@
                        <p>大好きなラベンダー色をメインにシンプルで見やすいデザインを心がけて作りました。
                           自分のやりたいことをやったので、結果的に少しまとまりのないサイトになってしまったかなあと思っています。
                        </p>
-                       <p>Three.jsに挑戦してみたい！と思ったものの締め切りに間に合わずに断念してしまったので、
-                         この無念を晴らすべく、改訂版のポートフォリオサイトを作る事をすでに考えています...
+                       <p>今回はPCで見ることを想定してデザイン・コーディングを行ったので、今度作るときはレスポンシブデザイン
+                         を意識したサイトを作成したいです。
                        </p>
                       </div>
                       </div>
@@ -523,6 +538,70 @@
                       </div>
                   </div>
                          
+                  <!-- モーダル5 -->
+                  <div id="modal5" class="modal_box">
+                      <h3>miniMom</h3>
+                      <p>スマートフォン/2019.11</p>
+                      <img src="image/work5.png">
+                      <div class="summary">
+                        <dl>
+                          <dt>制作期間</dt>
+                          <dd>3日間</dd>
+                          <dt>担当範囲</dt>
+                          <dd>フロントエンド</dd>
+                          <dt>使用ソフト・言語</dt>
+                          <dd>HTML,CSS,React</dd>
+                          <dt>URL</dt>
+                          <dd>https://github.com/yagijin/MiniMom</dd>
+                        </dl>
+                      </div>
+                      <div class="context">
+                        <h4>制作背景</h4>
+                        <p>去年参加したハッカソン『OthloHack2019』に今年も参加してきました。
+                          今回は事前に班分けがされており、初めてのメンバーとアイデア出しから行いました。
+                        </p>
+                      </div>
+                     <section class="flow">
+                       <div class="clearfix">
+                         <div class="left iphone">
+                          <img id="work5-img" src="image/work5-1.png">
+                        </div>
+                         <div class="right">
+                       <p>チームにハードをやっている人がいたので、ハッカソンではチャレンジングなIoTに挑戦することにしました。
+                         テーマは『〇〇を身近に』。私たちのチームは『片付けを身近に』というテーマでズボラすぎて片付けができない人に向けて、
+                         帰ってきた瞬間に片付ける習慣をつけるIoT家具を提案しました。
+                       </p>
+                       <p class="not">このプロダクトの特徴は</p>
+                       <ul>
+                         <li>家に帰ってきてから，一定時間経過後に棚に所定のものを片付けていないと大音量の警告音が鳴り響き片付けるまで止まらない</li>
+                         <li>棚にあるものの使用頻度がわかるため，使っていなくていらないものがなにかわかる</li>
+                         <li>家に帰ってきたことをネットワーク上で検知するため棚以外に何も設置する必要がない</li>
+                       </ul>
+                       <p>です。</p>
+                       <p>IoTとともに、どれだけ片付けの習慣が身についているか確認するカレンダー・使用頻度を表すページを作成するためにWebページも作成しました。
+                          （本当はネイティブアプリを作成したかったのですが、間に合わないと判断したためスマホで見る想定のwebページを作成しました）
+                          私は主にフロントエンドの開発を行いました。CSSを書いたのに加えて、初めてのReactに挑戦しました。
+                      </p>
+                      </div>
+                      </div>
+                      <p>結果は『Cookpad賞』をいただくことができました！！
+                          賞品として自作キーボードセットをいただいたのですが、完成させるのに１万以上かかるのを知り、まだ作れてません...
+                      　　　　　</br>ハッカソンの後にいただいた企業の方からのフィードバックでは、IoTへの挑戦と限られた技術の中でデモできちんと動くものを完成されられたことを
+                         評価していただいたのと同時に、アプリの機能面の見直しとプレゼンの仕方について意見をいただきました。
+                         特にプレゼンの仕方について、いいものを作るのも大事だけれど自分たちの伝えたいことを伝えられる、そのプロダクトをよりよく見せられるプレゼンテーションの仕方を
+                         今一度考えていきたいなあと思いました。
+                       </p>
+                     </section>
+                      <div class="link_area">
+                          <li class="button modal_link"><a data-target="modal2" class="modal_switch">←</a></li>
+                          <li class="button modal_link"><a data-target="modal4" class="modal_switch">→</a></li>
+                          <p><a class="button modal_link modal_close2">close</a></p>
+                      </div>
+                     
+                      <div class="close">
+                          <p><a class="modal_close">✖️</a></p>
+                      </div>
+                  </div>
 
     </section>
     

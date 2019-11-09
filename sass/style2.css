@@ -435,7 +435,7 @@ footer p {
   text-align: left;
 }
 
-.modal_box .flow p {
+.modal_box .flow p:not(.not) {
   margin-bottom: 20%;
 }
 
@@ -449,6 +449,10 @@ footer p {
 
 .modal_box .flow #work2-img {
   width: 80%;
+}
+
+.modal_box .flow #work5-img {
+  width: 110%;
 }
 
 .modal_box .flow .right {
@@ -561,9 +565,10 @@ footer p {
 
 .works .pic {
   background: #b3b3b3;
+  width: 100%;
 }
 
-.works .pic img {
+.works .pic img:not(.work-pic-pc) {
   width: 30%;
   vertical-align: middle;
   margin: 8%;
@@ -571,7 +576,7 @@ footer p {
           transition-duration: 0.3s;
 }
 
-.works .pic img:hover {
+.works .pic img:not(.work-pic-pc):hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition-duration: 0.3s;
@@ -596,14 +601,16 @@ footer p {
   margin-left: 1em;
 }
 
-.works .work-pic2 {
-  width: 31%;
-  text-align: center;
-  margin: 20px;
+.works .work-pic-pc {
+  width: 85%;
+  padding: 10%;
 }
 
-.works .work-pic2 img {
-  width: 80%;
+.works .work-pic-pc:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 #profilepic {
