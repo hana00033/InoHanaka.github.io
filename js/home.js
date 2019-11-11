@@ -18,22 +18,22 @@ var copy1 = document.querySelector("#copy");
 var copy = $("#copy").text();
 var count =0;
 
-function CanvasText(){
-    var copy2 = ["Welcome!","Portfolio","HANAKA INO"];
-    if(count>2){
-        count=0;
-    }
-    if(count<3){
-        copy = copy2[count];
-        // document.getElementById("copy").innerText = copy3;
-        count++;
-        initScene();
-        // requestAnimationFrame(render);
-    }
+// function CanvasText(){
+//     var copy2 = ["Welcome!","Portfolio","HANAKA INO"];
+//     if(count>2){
+//         count=0;
+//     }
+//     if(count<3){
+//         copy = copy2[count];
+//         // document.getElementById("copy").innerText = copy3;
+//         count++;
+//         initScene();
+//         // requestAnimationFrame(render);
+//     }
     
-}
+// }
 
-setInterval(CanvasText,20000);
+// setInterval(CanvasText,20000);
 
 
 var ww = canvas.width = window.innerWidth;
