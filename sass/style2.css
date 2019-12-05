@@ -22,7 +22,7 @@
 .skills1 {
   width: 80%;
   max-width: 1100px;
-  height: 900px;
+  height: 1000px;
   margin: 0 auto;
   position: relative;
 }
@@ -106,6 +106,12 @@
   opacity: 0;
 }
 
+.chart--dev .chart__bar:nth-of-type(17) {
+  -webkit-animation-delay: 3.9s;
+          animation-delay: 3.9s;
+}
+
+
 .chart--dev .chart__bar:nth-of-type(16) {
   -webkit-animation-delay: 3.7s;
           animation-delay: 3.7s;
@@ -185,6 +191,8 @@
   -webkit-animation-delay: 0.7s;
           animation-delay: 0.7s;
 }
+
+
 
 .chart__bar img {
   widows: 3em;
